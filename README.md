@@ -1,4 +1,4 @@
-##Cris's Portfolio - The Perfect Riwi Portfolio 🕶️
+## Cris's Portfolio - The Perfect Riwi Portfolio 🕶️
 🎯 The Challenge
 
 Hello world! 👋 This project was born as part of a screening test proposed by Riwi (my amazing programming academy). The challenge: create a complete, responsive, and professional portfolio.
