@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/contact/contactme.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"/>
+    <title>Who's Cristian</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-bar">
+            <a class="logo-link" href="/index.html">
+            <img class="logo" src="/assets/Logo.png" alt="logo of cristian"/>
+            </a>
+            <ul class="nav-list" > 
+                <li><a href="/index/index.html">Home</a></li>
+                <li><a href="/cristian/cristian.html">Who is Cristian?</a></li>
+                <li><a href="/proyects/proyects.html">Proyects</a></li>
+                <li><a href="/ubication/ubication.html">Ubication</a></li>
+                <div contenedor-button>
+                <li class="list-button"><a href="/contact/contactme.html">Contact Me</a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+      <section class="formulario-reservas">
+        <div class="formulario-container">
+          <h2>Conctact Me Here</h2>
+          <form class="reserva-form">
+            <div class="form-group">
+              <label for="nombre">Complate Name</label>
+              <input type="text" id="nombre" name="nombre" required />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+
+            <div class="form-group">
+              <label for="telefono">Phone</label>
+              <input type="tel" id="telefono" name="telefono" required />
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fecha">Date</label>
+                <input type="date" id="fecha" name="fecha" required />
+              </div>
+
+              <div class="form-group">
+                <label for="hora">time</label>
+                <input type="time" id="hora" name="hora" required />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="Reason">Reason for contacting me</label>
+              <select id="personas" name="personas" required>
+                <option>Choose One Option</option>
+                <option value="1">Job Offer</option>
+                <option value="2">Networking</option>
+                <option value="3">Friendship</option>
+                <option value="4">Go to anyplace</option>
+                <option value="5">I don't know</option>
+                <option value="6+">I just wanna talk with you :D</option>
+              </select>
+            </div>
+
+
+            <div class="form-group">
+              <label for="mensaje">Anything to say? :D</label>
+              <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+            </div>
+
+            <button type="submit" class="boton-reserva">
+              Submit contact
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    </body>
+    </html>
